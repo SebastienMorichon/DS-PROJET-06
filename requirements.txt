@@ -1,0 +1,32 @@
+# Data handling
+pandas
+numpy
+
+# Progress bar
+tqdm
+
+# Image processing
+Pillow  # For Image (PIL module)
+opencv-python  # For OpenCV (cv2)
+scikit-image  # For filters and exposure from skimage
+
+# Machine learning and dimensionality reduction
+scikit-learn
+tensorflow
+tensorflow-hub  # Needed for TensorFlow Hub modules
+keras  # For Keras (bundled with TensorFlow in most cases)
+opencv-python  # Installed with opencv-python
+scipy  # For optimization and other scientific operations
+
+# Visualization
+matplotlib
+seaborn
+
+# Text processing
+nltk
+gensim
+
+# Hugging Face Transformers
+transformers
+torch
+
