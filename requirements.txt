@@ -8,15 +8,15 @@ tqdm
 # Image processing
 Pillow  # For Image (PIL module)
 opencv-python  # For OpenCV (cv2)
-scikit-image  # For filters and exposure from skimage
+scikit-image  # For skimage filters and exposure adjustments
 
 # Machine learning and dimensionality reduction
 scikit-learn
 tensorflow
-tensorflow-hub  # Needed for TensorFlow Hub modules
-keras  # For Keras (bundled with TensorFlow in most cases)
-opencv-python  # Installed with opencv-python
-scipy  # For optimization and other scientific operations
+tensorflow-hub
+tensorflow-addons  # Additional TensorFlow features (optional)
+keras
+scipy
 
 # Visualization
 matplotlib
@@ -25,8 +25,27 @@ seaborn
 # Text processing
 nltk
 gensim
+spacy  # For efficient NLP processing
 
 # Hugging Face Transformers
 transformers
 torch
 
+# Optional: Advanced logging
+loguru
+
+# Optional: Parquet file handling
+pyarrow
+
+# Optional: Distributed computing
+dask
+dask-ml
+
+# Optional: Experiment tracking
+mlflow
+
+# Optional: Data validation
+pydantic
+
+# Optional: Data augmentation for images
+albumentations
